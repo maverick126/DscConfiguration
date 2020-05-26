@@ -1,6 +1,7 @@
 Configuration iis_dsc {
     Import-DscResource -ModuleName 'xPSDesiredStateConfiguration'
     Import-DscResource -ModuleName 'xWebAdministration'
+    Import-DscResource -ModuleName 'PSDesiredStateConfiguration'
 
     Node localhost {
 
@@ -95,3 +96,4 @@ Configuration iis_dsc {
         }
     }
 }
+iis_dsc
